@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+
+}
+.row{
+	background: black;
+}
+.logo{
+    width: 90%;
+    margin-top: 5px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+
+}
+.menu ul{
+	padding: 0 0;
+	float: left;
+    list-style: none;
+
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin: 0px 17px;
+    margin-top: 47px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu ul li:first-child a{
+    margin-left: 0;
+}
+.menu ul li a:hover{
+	color: #d81f26;
+}
+
+
+
+
+
+.icon ul{
+    list-style: none;
+
+
+}
+
+.icon ul li a{
+	margin: 0px 17px;
+    margin-top: 43px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 400;
+}
+.icon ul li:last-child a{
+    margin-left: 100px;
+}
+
+.box{
+	min-height: 50px;
+	background: #181818;
+	border-radius: 5px;
+}
+
+.movie{
+	width: 100%;
+
+
+}
+.movie img{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	transition: .4s;
+    border: 3px solid  transparent;
+}
+.text h1{
+	padding: 25px 0;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+.movie img:hover{
+	    border: 3px solid #d81f26;
+}
